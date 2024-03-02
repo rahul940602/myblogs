@@ -17,6 +17,7 @@ import java.util.List;
 @Table(name ="categories")
 public class Category {
 
+    //category
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
